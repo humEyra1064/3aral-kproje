@@ -1,16 +1,17 @@
 *{margin: 0; padding: 0;
 }
+
 .logo{width: 170px; 
 height: 120px;}
-.baslık{ 
-    width: 100%;
+.header{ 
+    width:70%;
     height: 200px;
      display: flex;
     justify-content: space-between;
     align-items: center;
-box-shadow: 7px 7px 10px gray;
+box-shadow: 7px 7px 10px goldenrod, -7px -7px 10px goldenrod;
 margin: auto;
-padding: 20px;
+padding: 15px;
 flex-wrap: wrap;
 }
 
@@ -22,17 +23,28 @@ flex-wrap: wrap;}
 
 a{color: black;
 text-decoration: none;
-margin: 15px;}
+margin: 20px;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;}
 
-a:hover{color: red;
-    font-size: 20px;
+a:hover{color: orangered;
+    font-size: 30px;
+    text-decoration: underline;
+    transition: ease-in 0.3s;
     }
 h1{text-align: center;
 margin: 40px;}
+
 .pet{width: 300px; 
     margin: 30px;
 border-radius:20px ;
-box-shadow: 7px 7px 10px gray;
+box-shadow: 7px 7px 10px goldenrod, -7px -7px 10px goldenrod}
+
+.pet:hover{ transform: scale(0.97);
+    transition: ease-in 0.3s;    
+    box-shadow: 7px 7px 10px greenyellow;
+
+
 }
 .main{
     width: 70%;
